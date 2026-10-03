@@ -30,6 +30,15 @@ body
     color: white;
 }
 
+.logo img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%
+    object-fit: cover; /* crops instead of squishing photo */
+    border: 2px solid white;
+}
+
 .nav-links
 {
     float: right;
