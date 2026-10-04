@@ -81,6 +81,14 @@ header
     margin: 0 10px;
 }
 
+.card
+{
+    background: white;
+    padding: 1.2em;
+    margin-bottom: 16px;
+    border-top: 0.3em solid teal;
+}
+
 #footer
 {
     background-color: black;
