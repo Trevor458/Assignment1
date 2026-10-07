@@ -1,19 +1,18 @@
 @charset "UTF-8";
 
+/* Color scheme: #SE00B8 #4C0094 #37006B #220042 #7700ES */
 
-
-.navbar
-{
-    float: right;
-}
 
 body
 {
-    background: linear-gradient(to bottom, navy 0%, purple 100%);
-    background-color: black;
+    background: linear-gradient(to bottom, #14143A 0%, #5B2A86 100%);
+    background-color: navy;
+    color:
     padding: 0;
     margin: 0;
     min-height: 100vh;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
 }
 
 .navbar
@@ -25,7 +24,6 @@ body
 .logo
 {
     float: left;
-    font-weight: bold;
     line-height: 40px;
     color: white;
 }
@@ -39,15 +37,20 @@ body
     border: 2px solid white;
 }
 
-.nav-links
+.navbar
 {
     float: right;
+    padding: 15px 30px;
 }
+
 
 .nav-links a
 {
     margin-left: 25px;
+    padding: 0 22px;
     line-height: 40px;
+    color: white;
+    text-decoration: none;
     border: 2px solid white;
     border-radius: 50px;
     transition: background-color 0.3s, color 0.3s, transform 0.2s, box-shadow 0.3s;
@@ -56,9 +59,9 @@ body
 .nav-links a:hover
 {
     background-color: white;
-    color: purple;
+    color: #5B2A86;
     transform: translateY(-10px);
-    box-shadow: 0 6px 12px ;
+    box-shadow: 0 6px 12px black 35%;
 }
 
 .nav-links a:active
@@ -67,34 +70,57 @@ body
     box-shadow: none;
 }
 
-header
-{
-    color: black
-    padding: 50px;
-    text-align: center;
-}
 
 .hero
 {
+    clear: both;
+    color: #F4F2FB;
     padding: 120px 20px;
-    border-radius: 8px;
     margin: 0 10px;
+    text-align: center;
+}
+
+.hero h1
+{
+    margin: 0 0 12px;
+    font-size: 58px;
+    line-height: 1.1;
+}
+
+.hero p
+{
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.cards
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .card
 {
+    min-height: 260px;
+    padding: 1.6em;
     background: white;
-    padding: 1.2em;
-    margin-bottom: 16px;
     border-top: 0.3em solid teal;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px black 35%;
 }
 
 #footer
 {
+    clear: both;
     background-color: black;
     color: white;
     text-align: center;
     height: 50px;
     padding: 1rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
