@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* Laptop screen 960px wide and upward */
+
+.hero
+{
+    padding: 90px 5% 70px;
+}
+.hero h1
+{
+    font-size: 3.5vw;
+}
+.hero p
+{
+    font-size: 1.2rem;
+}
+
+.cards
+{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+    width: 80%; /* adds fluidity to width */
+    max-width: 1000px; /* caps ceiling on huge monitors */
+}
+
+.card
+{
+    min-height: 260px;
+    padding: 1.8em;
+}

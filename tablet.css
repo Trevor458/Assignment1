@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* Tablet screen between 481px and 959px wide */
+
+.logo
+{
+    margin: 12px 3px;
+}
+
+.navbar
+{
+    padding: 12px 3%;
+}
+
+.nav-links a
+{
+    margin-left: 10px;
+    padding: 0 18px;
+}
+
+.hero
+{
+    padding: 70px 5% 50px;
+}
+.hero h1
+{
+    font-size: 5vw;
+}
+.hero p
+{
+    font-size: 1.1rem;
+}
+
+.cards
+{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 90%;
+}
+
+.card
+{
+    min-height: 230px;
+    padding: 1.4em;
+}
