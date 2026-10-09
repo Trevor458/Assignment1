@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-/* Color scheme:
-#14143A: navy
-#5B2A86: purple
-#F4F2FB:
-#FAF8FF:
-#C9A2F5:
-*/
-
 body
 {
     background: linear-gradient(to bottom, #14143A 0%, #5B2A86 100%);
