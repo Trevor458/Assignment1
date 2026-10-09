@@ -1,10 +1,7 @@
 <!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Me</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css" media="(max-width: 480px)">
@@ -13,7 +10,7 @@
 </head>
 <body>
     <div class="logo">
-        <a href="home.html"><img src="me.jfif"></a>
+        <a href="home.html"><img src="me.jfif" alt="Home"></a>
     </div>
     <nav class="navbar"> <!--Top Navigation bar-->
         <div class="nav-links">
@@ -26,35 +23,44 @@
     <header class="hero">
          <h1>Contact Me</h1>
     </header>
-    <section class="form">
+    <div class="form">
 
         <p>Fill the form and leave a comment, so I can get back to you as soon as possible.</p>
-        <form action="mailto:oghenetano.osokpor@ontariotechu.net?subject=Feedback on website"
-                method="post" enctype="text/plain" name="feedback_form">
+        <form action="mailto:oghenetano.osokpor@ontariotechu.net?subject=Feedback on website" enctype="text/plain" method="post" name="feedback_form">
             <p>
                 <label for="Fname">First Name: </label>
-                <input type="text" name="Fname" size="32" placeholder="Enter your first name" required>
+                <label>
+                    <input type="text" name="Fname" size="32" placeholder="Enter your first name" required>
+                </label>
             </p>
             <p>
                 <label for="Lname">Last Name: </label>
-                <input type="text" name="Lname" size="32" placeholder="Enter your last name" required>
+                <label>
+                    <input type="text" name="Lname" size="32" placeholder="Enter your last name" required>
+                </label>
             </p>
             <p>
                 <label for="email">Email: </label>
-                <input type="email" name="email" size="32" placeholder="Enter your email address" required>
+                <label>
+                    <input type="email" name="email" size="32" placeholder="Enter your email address" required>
+                </label>
             </p>
             <p>
                 <label for="DoB">Date of Birth</label>
-                <input type="date" name="DoB">
+                <label>
+                    <input type="date" name="DoB">
+                </label>
             </p>
             <p>
                 <label for="comments">Comments</label><br>
-                <textarea name="comments" cols="60" rows="6"></textarea>
+                <label>
+                    <textarea name="comments" cols="60" rows="6"></textarea>
+                </label>
             </p>
             <input type="reset" value="Reset">
             <input type="submit" value="Submit">
         </form>
-    </section>
+    </div>
     <div id="footer">
         <p>&copy; 2026 Oghenetano Osokpor | oghenetano.osokpor@ontariotechu.net</p>
     </div>
