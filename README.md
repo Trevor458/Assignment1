@@ -11,5 +11,7 @@ Pages
 
 Responsive Design & Viewport Dimensions
 	style.css first loads on every page providing the default layout, then one of the three device-specific stylesheets loads on top of it depending on the devices screen size.
-
+	mobile.css - up to 480px
+	tablet.css - from 481px to 959px
+	laptop.css - from 960px upwards
 	
